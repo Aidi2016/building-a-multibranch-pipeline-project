@@ -9,8 +9,8 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'pwd'
-                sh 'ls' 
-                sh 'mkdir /.npm'
+                //sh 'ls' 
+                sh 'npm install '
             }
         }
     }
