@@ -9,7 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'pwd'
-                sh 'npm install' 
+                sh 'npm install --unsafe-perm=true --allow-root' 
             }
         }
     }
