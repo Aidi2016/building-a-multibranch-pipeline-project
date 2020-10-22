@@ -13,8 +13,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 //sh 'ls' 
-                sh 'npm install '
-                ...
+                sh 'npm install'
             }
         }
     }
