@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'pwd'
+                sh 'set -x'
                 //sh 'ls' 
                 sh 'npm install'
             }
