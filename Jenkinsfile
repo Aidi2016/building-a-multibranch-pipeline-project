@@ -11,9 +11,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'set -x'
                 //sh 'ls' 
-                sh 'npm install'
+                sh 'set -x ; npm install'
             }
         }
     }
